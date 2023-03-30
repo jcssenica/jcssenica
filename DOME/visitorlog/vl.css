@@ -1,0 +1,15 @@
+body {
+    font-family: plain,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 15px;
+    background-color: #000000;
+    text-rendering: optimizeLegibility;
+}
+
+.email {
+    text-align: center;
+
+    margin-top: 300px;
+}

@@ -1,0 +1,266 @@
+/* BG */
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* BG */
+
+/* HEADER */
+
+header a:link { text-decoration: none; color: white;}
+
+header a:visited { text-decoration: none; color: white;}
+
+header a:hover { text-decoration: none; color: white;}
+
+header a:active { text-decoration: none; }
+
+.main-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 5vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.main-header .container1 {
+	display: flex;
+	align-items: left;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-header .container2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-header .container3 {
+	display: flex;
+	align-items: right;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.container1, .container2, .container3{
+	width: 960px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.main-header .container1 .about {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 5.5em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.main-header .container2 .dome {
+    display: block;
+    font-size: 10em;
+    margin-block-start: 1.5em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.main-header .container3 .poem {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 5.5em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* HEADER */
+
+
+.floatbox2 {
+    position: absolute;
+    top: 20;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    width: 30vw;
+    transform: translate(80%,300%);
+    /* display: block; */
+    /* transform: translate(-50%,-50%); */
+}
+
+.dot2 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    /* transform: translate(-50%,-50%); */
+    cursor: pointer;
+  
+}
+
+.text2 {
+    position: absolute;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    color: white;
+/*     transform: translate(50%,-50%); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+
+
+.floatbox3 {
+
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95vh;
+    display: block;
+    transform: translate(80%,60%);
+
+}
+
+.dot3 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    /* transform: translate(-50%,-50%); */
+    cursor: pointer;
+    
+}
+
+
+.text3 {
+    font-size: small;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+/*     left: 500px;
+    top: 400px; */
+    /* transform: translate(50%,-50%); */
+}
+
+.floatbox4 {
+    position: absolute;
+    top: 20;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    width: 30vw;
+    transform: translate(60%,80%);
+    /* display: block; */
+    /* transform: translate(-50%,-50%); */
+}
+
+.text4 {
+    font-size: small;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+/*     left: 500px;
+    top: 400px; */
+    /* transform: translate(50%,-50%); */
+}
+
+.dot4 {
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+/*     left: 600px;
+    top: 700px; */
+    cursor: pointer;
+}
+
+.dot2:hover + .text2 {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+  }
+
+/* FOOTER */
+
+footer a:link { text-decoration: none; color: white;}
+
+footer a:visited { text-decoration: none; color: white;}
+  
+footer a:hover { text-decoration: none; color: white;}
+  
+footer a:active { text-decoration: none; }
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 5vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container4 {
+    padding: 16px;
+    display: block;
+}
+
+.visitorlog {
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+    font-weight: 300;
+
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+
+
+
+/* POEM */
+
+.vlbg {
+    margin: 0;
+
+    padding: 0;
+
+    background-position: center 32px;
+
+    background-color: #000000;
+  }
